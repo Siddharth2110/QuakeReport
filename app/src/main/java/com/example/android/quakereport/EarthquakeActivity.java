@@ -89,6 +89,11 @@ public class EarthquakeActivity extends AppCompatActivity {
             return result;
         }
 
+       // protected void onProgressUpdate(Integer ... progress)
+        //{
+          //  setProgressPercent(progress[0]);
+        //}
+
         protected void onPostExecute(List<Earthquake> data) {
             // Clear the adapter of previous earthquake data
             madapter.clear();
